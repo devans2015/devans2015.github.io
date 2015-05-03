@@ -1,5 +1,6 @@
 	body {
 		background: url("images/Living Room Wide Shot.jpg");
+		background: url("../images/living room wide shot.jpg");
 		background-size:cover;
 		font-size: 30px;
 		font-family: "Helvetica Neue", sans-serif;
