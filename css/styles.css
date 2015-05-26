@@ -1,77 +1,233 @@
-	body {
-		color:#000;
-		font-family: 'Roboto', sans-serif;
-		text-align:center;
-		}
+*	{
+	margin: 0;
+	padding: 0;
+}
 
-	h1 	{
-			margin:0px;
-			padding:0px;
-			font-size:70px;
-			font-weight:200;
-			color:#2bcfc2;
-			font-family: 'Sacramento', serif;
-			text-transform: lowercase;
-			text-align:center;
-			background:#fff;
-			width:100%;
-			height:100%;
-		}
-		header.image	{
-			background:url('../images/livingroom.jpg');
-			background-size:1300px 400px;
-			background-repeat: no-repeat;
-    		width: 1300px;
-    		height: 400px;
-    		display: block;
-    		margin-left: auto;
-    		margin-right: auto
-		}
-	.copy	{
-		font-size:16px;
-		font-weight:800px;
-		text-align: center;
-		padding: 10px;
-		width: 900px;
-		background-color: rgba(255,255,255,0.6);
-		margin: auto;
-		font-family: 'Roboto', sans-serif;
-		color:#000;
-		font-size:18px;
-		font-weight:200;
-	}
+.wrapper	{
+	width: 960px;
+	max-width: 960px;
+	margin:0 auto;
+	padding:0;
+}
 
-		ul.main	{
-			text-align:left;
-			margin:10px auto;
-			text-indent:0px;
-			text-align:left;
-			}
+body	{
+	background-color: #fff;
+}
+
+header	{
 	
-		img { display: block;
-    		margin-left:0px;
-   			margin-right:0px;
-			}
+}
 
-		a	{
-			color:#000;
-			text-decoration:none;
-			font-size:16px;
-			padding:10px;
-			text-transform:uppercase;
-			font-family: 'Roboto', sans-serif;
-		}
+h1	{
+	text-indent: -9999px;
+}
 
-		a:hover	{
-			font-size:16px;
-			color:#000;
-			border:#000 solid 2px;
-			text-decoration:none;
-			padding:10px;
-			font-family: 'Roboto', sans-serif;
-		}
-		p#footer	{
-			font-size:14px;
-			font-family: 'Roboto', sans-serif;
-			color:#000;
-		}
+.left	{
+	text-align:center;
+}
+
+a.mainimage	{
+	clear:both;
+	background: center;
+	margin:0 auto;
+}
+
+nav	{
+	/*clear: both */
+	width:100%;
+	background-color:#fff;
+	font-family: 'Prata', serif;
+	font-size: 1.25em;
+	padding:1.5em;
+	display:inline-block;
+	margin:auto;
+	float: left;
+
+}
+
+nav a	{
+	background-color:#fff;
+	color:#000;
+	text-decoration: none;
+	text-align:center;
+	display:block;
+	padding:10 10;
+	width: 17.5%;
+	float: left;
+}
+
+nav a:hover	{
+	background-color:green;
+	color:#fff;
+	padding:10 10;
+}
+
+a.on	{
+	background-color:green;
+	color:#fff;
+	padding:10 10;
+}
+
+.image1	img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding:0;
+	max-width:100%;
+}
+
+.content	{
+	clear:both;
+	font-family: 'Prata', serif;
+	padding:0;
+	margin: 0 auto;
+	line-height:1.5em;
+	width:960px;
+	text-align:center;
+	display:block;
+	margin:2em auto;
+	font-weight:400;
+	border-bottom: solid #aaa;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.italics	{
+	font-style:italic;
+	font-weight:700;
+	color:green;
+}
+
+.services 	{
+	font-style:italic;
+	color:green;
+}
+
+div.links	{
+	width:100%;
+}
+
+.column1	{
+	float:left;
+	display:block;
+	width:480px;
+	margin:0 0 2em 0;
+	max-width: 480px;
+	height:350px;
+	position:relative;
+}
+
+h2	{
+	position:absolute;
+	top:50%;
+	left:0;
+	width:100%;
+	color: green;
+	font-family: 'Prata', serif;
+	text-decoration: none;
+	text-align: center;
+	padding: 20;
+	font-size:3em;
+}
+
+.floral:hover	{
+	opacity:.3;
+}
+
+.column2	{
+	position: relative;
+	float: right;
+	display:block;
+	width:480px;
+	margin:0 0 2em 0;
+	max-width:480px;
+}
+
+footer	{
+	color: #fff;
+	clear:both;
+	background-color:green;
+	display:block;
+	width:100%;
+	padding:2em;
+	margin:0;
+	text-align:center;
+	font-family: 'Prata', serif;
+	font-size: 1em;
+}
+
+footer a 	{
+	text-decoration: none;
+	color: #fff;
+}
+footer a:hover	{
+	color:#aaa;
+}
+
+.inspirationpics	{
+	width:100%;
+}
+
+.pictures	{
+	width:960px;
+}
+
+.number1	{
+	width:320px;
+	float:left;
+	padding:0;
+}
+
+.number2	{
+	width:320px;
+	float:left;
+	padding:0;
+}
+
+.number3	{
+	width:320px;
+	float:left;
+	padding:0;
+}
+.pictures2	{
+	width:960px;
+}
+
+.number4	{
+	width:320px;
+	float:left;
+	padding:0;
+}
+
+.number5	{
+	width:320px;
+	float:left;
+	padding:0;
+}
+
+.number6	{
+	width:320px;
+	float:left;
+	padding:0;
+}
+.pictures3	{
+	width:960px;
+}
+
+.number7	{
+	width:320px;
+	float:left;
+	padding:0;
+}
+
+.number8	{
+	width:320px;
+	float:left;
+	padding:0;
+}
+
+.number9	{
+	width:320px;
+	float:left;
+	padding:0;
+}
